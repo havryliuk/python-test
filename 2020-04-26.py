@@ -11,6 +11,13 @@ def print_version():
     version = platform.python_version()
     print(message.format(version))
 
+    m = 'Python version is %d' % platform.python_version()
+    print(m)
+
+    name = 'Sasha'
+    f_message = f'Hello world, {name}'
+    print(f_message)
+
 
 if __name__ == '__main__':
     main()
