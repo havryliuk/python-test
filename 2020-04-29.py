@@ -42,17 +42,27 @@ def booleans():
 
 
 def sequences():
-    l = [1, 'a', 3, 4]
-    l[1] = 'b'
-    print(l)
+    my_list = [1, 'a', 3, 4]
+    my_list[1] = 'b'
+    print(my_list)
 
-    tuple = (1, 'a', 3, 4)
-    print(tuple)
+    my_tuple = (1, 'a', 3, 4)
+    print(my_tuple)
 
+    range_10 = range(10)
+    for x in range_10:
+        print(x, end=" ")
+    print()
 
-    print(range(10), end=" ")
-    print(range(5, 11), end=" ")
-    print(range(70, 90, 10), end=" ")
+    range_5_11 = range(5, 11)
+    for x in range_5_11:
+        print(x, end=" ")
+    print()
+
+    range_70_91_step_9 = range(70, 91, 9)
+    for x in range_70_91_step_9:
+        print(x, end=" ")
+    print()
 
 
 if __name__ == '__main__':
