@@ -1,4 +1,4 @@
-def practice_type_and_id() :
+def practice_type_and_id():
     new_map = {'a': 345, 'b': 489}
     second_map = {'a': 345, 'b': 489}
 
