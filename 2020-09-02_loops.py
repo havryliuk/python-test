@@ -23,7 +23,8 @@ def additional_controls():
     max_attempts = 5
 
     while guess != password:
-        if attempt > max_attempts: break
+        if attempt > max_attempts:
+            break
         guess = input(f"{attempt}: Enter the password: ")
         attempt += 1
     else:
